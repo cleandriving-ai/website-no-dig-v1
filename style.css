@@ -448,10 +448,23 @@ nav a:hover {
     }
 }
 
+footer {
+    padding: 2.5rem 0 !important;
+    margin-top: 4rem !important;
+}
+
+.footer-service-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem 2rem;
+    padding: 0;
+}
+
 footer .logo {
-    justify-content: center;
-    margin-bottom: 2rem;
-    height: 64px;
+    margin-bottom: 1.5rem;
+    height: 50px;
+    display: block;
 }
 
 @keyframes pulse-slow {
