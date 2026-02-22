@@ -1,0 +1,14 @@
+# Environment variables
+.env
+*.env
+
+# Agent/IDE specific
+.agent/
+.gemini/
+
+# Sub-projects or other temp files
+houle.html
+**/node_modules/
+**/dist/
+**/.firebase/
+**/.firebaserc
