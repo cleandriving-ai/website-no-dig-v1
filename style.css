@@ -4,9 +4,10 @@
     --nav-bg: #FFFFFF;
     --bg: #FFFFFF;
     --primary: #000000;
-    --secondary: #00529B;
-    /* Professional Industrial Blue */
+    --secondary: #E1492E;
+    /* Industrial Brand Orange */
     --accent: #003366;
+    /* Brand Navy */
     --text: #111827;
     --text-muted: #6B7280;
     --card-bg: #FFFFFF;
@@ -209,7 +210,7 @@ nav a:hover {
     color: #000000;
 }
 
-.hero .highlight {
+.highlight {
     color: var(--secondary);
     background: none;
     -webkit-text-fill-color: initial;
@@ -339,7 +340,7 @@ nav a:hover {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--secondary);
-    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+    box-shadow: 0 0 0 4px rgba(225, 73, 46, 0.1);
     background: #FFFFFF;
 }
 
@@ -402,7 +403,7 @@ nav a:hover {
     border-radius: 50px;
     font-weight: 800;
     text-decoration: none;
-    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.3);
+    box-shadow: 0 10px 25px rgba(225, 73, 46, 0.3);
     z-index: 1500;
     align-items: center;
     gap: 0.75rem;
