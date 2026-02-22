@@ -26,7 +26,9 @@
     <header>
         <div class="container">
             <nav>
-                <a href="../index.html" class="logo">NO DIG <span>CANADA</span></a>
+                <a href="../index.html" class="logo">
+                    <img src="../assets/logo.png" alt="No Dig Canada Logo">
+                </a>
                 <ul>
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="cipp-lining.html">Residential</a></li>
@@ -46,7 +48,8 @@
                 <div style="display: flex; gap: 1rem; justify-content: center;">
                     <a href="#quote" class="cta-button">Request Technical Specs</a>
                     <a href="tel:6045550199" class="cta-button"
-                        style="background: transparent; border: 1px solid var(--secondary);">Speak to an Engineer</a>
+                        style="background: transparent; border: 1px solid var(--secondary); border-radius: 2px;">Speak
+                        to an Engineer</a>
                 </div>
             </div>
         </section>
@@ -66,17 +69,41 @@
                         life by up to 50 years.</p>
 
                     <ul style="list-style: none; margin-bottom: 2rem;">
-                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem; align-items: center;">
-                            <span style="color: var(--secondary); font-weight: 800;">✓</span>
-                            H2S Corrosion Protection
+                        <li style="margin-bottom: 1.25rem; display: flex; gap: 1rem; align-items: center;">
+                            <div style="color: var(--secondary); flex-shrink: 0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-check">
+                                    <path d="M20 6 9 17l-5-5" />
+                                </svg>
+                            </div>
+                            <span
+                                style="font-weight: 600; font-size: 0.95rem; letter-spacing: 0.02em; text-transform: uppercase;">H2S
+                                Corrosion Protection</span>
                         </li>
-                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem; align-items: center;">
-                            <span style="color: var(--secondary); font-weight: 800;">✓</span>
-                            Structural Wall Reinforcement
+                        <li style="margin-bottom: 1.25rem; display: flex; gap: 1rem; align-items: center;">
+                            <div style="color: var(--secondary); flex-shrink: 0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-check">
+                                    <path d="M20 6 9 17l-5-5" />
+                                </svg>
+                            </div>
+                            <span
+                                style="font-weight: 600; font-size: 0.95rem; letter-spacing: 0.02em; text-transform: uppercase;">Structural
+                                Wall Reinforcement</span>
                         </li>
-                        <li style="margin-bottom: 1rem; display: flex; gap: 1rem; align-items: center;">
-                            <span style="color: var(--secondary); font-weight: 800;">✓</span>
-                            Fast Return-to-Service Times
+                        <li style="margin-bottom: 1.25rem; display: flex; gap: 1rem; align-items: center;">
+                            <div style="color: var(--secondary); flex-shrink: 0;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                                    stroke-linejoin="round" class="lucide lucide-check">
+                                    <path d="M20 6 9 17l-5-5" />
+                                </svg>
+                            </div>
+                            <span
+                                style="font-weight: 600; font-size: 0.95rem; letter-spacing: 0.02em; text-transform: uppercase;">Fast
+                                Return-to-Service Times</span>
                         </li>
                     </ul>
                 </div>
@@ -152,25 +179,37 @@
         </div>
     </main>
 
-    <footer style="background: var(--nav-bg); padding: 4rem 0; border-top: 1px solid var(--border);">
+    <footer style="background: var(--nav-bg); padding: 2.5rem 0; border-top: 1px solid var(--border);">
         <div class="container" style="display: flex; justify-content: space-between; align-items: flex-start;">
             <div>
-                <a href="index.html" class="logo"><img src="../assets/logo.png" alt="No Dig Canada Logo"></a>
+                <a href="../index.html" class="logo"><img src="../assets/logo.png" alt="No Dig Canada Logo"></a>
                 <p style="color: var(--text-muted); margin-top: 1rem;">Industrial-Grade Infrastructure Support.</p>
             </div>
             <div style="display: flex; gap: 4rem;">
                 <div>
-                    <h4 style="color: var(--text); margin-bottom: 1.5rem;">Services</h4>
-                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem;">
-                        <li><a href="cipp-lining.html"
-                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Residential
-                                CIPP</a></li>
-                        <li><a href="municipal-industrial.html"
-                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Municipal
-                                Services</a></li>
-                        <li><a href="manhole-rehabilitation.html"
-                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Manhole
-                                Rehab</a></li>
+                    <h4 style="color: var(--text); margin-bottom: 1.5rem;">Quick Links</h4>
+                    <ul class="footer-service-grid">
+                        <li><a href="../locations/vancouver.html"
+                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Vancouver</a>
+                        </li>
+                        <li><a href="../locations/surrey.html"
+                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Surrey</a>
+                        </li>
+                        <li><a href="../locations/burnaby.html"
+                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Burnaby</a>
+                        </li>
+                        <li><a href="../locations/richmond.html"
+                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Richmond</a>
+                        </li>
+                        <li><a href="../locations/coquitlam.html"
+                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Coquitlam</a>
+                        </li>
+                        <li><a href="../locations/langley.html"
+                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Langley</a>
+                        </li>
+                        <li><a href="../locations/abbotsford.html"
+                                style="color: var(--text-muted); text-decoration: none; font-size: 0.9rem;">Abbotsford</a>
+                        </li>
                     </ul>
                 </div>
             </div>
